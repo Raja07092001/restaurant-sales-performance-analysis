@@ -1,0 +1,11 @@
+{
+  "transactions": 17104,
+  "total_revenue": 340617.5,
+  "quantity_sold": 51554,
+  "average_order_value": 19.91,
+  "unique_customer_ids": 100,
+  "missing_item_rows": 1328,
+  "missing_item_revenue": 25936.0,
+  "missing_payment_rows": 943,
+  "missing_payment_revenue": 18906.5
+}
