@@ -12,3 +12,9 @@ data/*.csv
 
 # Customer-ID-level outputs are not included in the public repository
 outputs/customer_summary.csv
+
+# Generated duplicate summary tables are intentionally not versioned
+/outputs/headline_kpis.json
+/outputs/yearly_summary.csv
+/outputs/category_summary.csv
+/outputs/payment_summary.csv

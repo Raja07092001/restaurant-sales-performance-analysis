@@ -59,7 +59,7 @@ pip install -r requirements.txt
 python src/analyze_restaurant_sales.py --input data/restaurant_sales_analysis_ready.csv
 ```
 
-The script validates orders and writes the analytical tables to `outputs/`. Non-identifying summary exports are already included for review. Customer-ID-level summaries are generated locally but are not committed to this public repository. The transaction-level CSV is excluded from the public-ready template until its sharing rights and privacy are confirmed.
+The script validates transactions and generates KPI and analytical tables locally under `outputs/`. Only three selected, non-identifying examples are committed: monthly sales, item revenue (including unknown labels), and item year-over-year changes. The repeated headline, category, yearly and payment summaries are intentionally omitted from GitHub because those key figures already appear in the README and [business report](docs/FINAL_BUSINESS_ANALYSIS.md). Customer-ID-level exports are generated locally only; the transaction-level CSV remains excluded until provenance and sharing rights are confirmed.
 
 To run the built-in checks, install `requirements-dev.txt` and run `python -m pytest -q tests/`. GitHub Actions runs the same checks on changes.
 
@@ -78,13 +78,9 @@ restaurant-sales-performance-analysis/
 ├── data/
 │   └── README.md
 ├── outputs/
-│   ├── headline_kpis.json
-│   ├── yearly_summary.csv
 │   ├── monthly_summary.csv
-│   ├── category_summary.csv
-│   ├── payment_summary.csv
 │   ├── item_summary_including_unknown.csv
-│   ├── item_yoy.csv
+│   └── item_yoy.csv
 ├── tableau/
 │   └── README.md
 └── docs/
