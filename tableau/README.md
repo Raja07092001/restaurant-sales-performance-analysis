@@ -1,4 +1,8 @@
-# Tableau dashboard
+# Tableau dashboards
+
+**[Open the interactive dashboard on Tableau Public →](<https://public.tableau.com/views/Restaurant_Sales_Interactive_Final/ProductCustomerAnalysis>)**
+
+The link opens the published **Product & Customer Analysis** view. Use the published workbook's dashboard navigation to explore the **Restaurant Sales Overview** view as well.
 
 The portfolio contains two interactive Tableau views:
 
@@ -20,4 +24,4 @@ When opening the workbook in Tableau Public Desktop, verify that each filter car
 
 These checks were matched by the project author in Tableau Public Desktop. Currency symbols are omitted because the dataset does not identify a currency.
 
-**Workbook upload:** The final saved packaged workbook (`.twbx`) is not included in the initial GitHub-ready bundle because the latest version with the six saved filter-scope fixes is still on the author's Windows PC. Add it under `tableau/Restaurant_Sales_Interactive_Final.twbx` once supplied. Do not substitute earlier drafts with incomplete filter configuration.
+**Availability:** The finalized interactive dashboards are published on Tableau Public using the link above. The packaged `.twbx` file is not stored in this GitHub repository.
