@@ -4,6 +4,8 @@
 
 **Tech stack:** Python · pandas · Google Colab · Tableau Public · Excel · GitHub
 
+**[View Interactive Tableau Dashboard](<https://public.tableau.com/views/Restaurant_Sales_Interactive_Final/ProductCustomerAnalysis>)** · **[Read Final Business Analysis](docs/FINAL_BUSINESS_ANALYSIS.md)**
+
 > **Business question:** Why did revenue fall in 2023, which product categories were most affected, and what should the business investigate next?
 
 ## At a glance
@@ -35,7 +37,9 @@
 
 **Product & Customer Analysis** — leading items, customer revenue, order frequency and category comparison.
 
-Interactive **Year**, **Category** and **Payment Channel** filters and chart-click actions enable drill-down. The author validated overall and 2023 KPI totals in Tableau Public Desktop. The final packaged `.twbx` will be added here after the locally saved final version is uploaded.
+Interactive **Year**, **Category** and **Payment Channel** filters and chart-click actions enable drill-down. The author validated overall and 2023 KPI totals in Tableau Public Desktop.
+
+**[Open the published Tableau Public dashboard →](<https://public.tableau.com/views/Restaurant_Sales_Interactive_Final/ProductCustomerAnalysis>)** (opens the Product & Customer Analysis view). The Tableau Public workbook contains both dashboard views. The final packaged `.twbx` is not included in this GitHub repository.
 
 See [Dashboard guide](tableau/README.md) for workbook opening and validation instructions.
 
